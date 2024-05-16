@@ -4,7 +4,7 @@ import { Phone, Mail } from "lucide-react";
 
 const Footer = () => {
     return (
-        <div className="mx-auto container xl:px-20 lg:px-12 sm:px-6 px-4  py-12">
+        <div className="mx-auto container xl:px-20 lg:px-12 sm:px-6 px-4  py-12  min-w-screen  ">
             <div className="flex flex-col items-center justify-center">
                 <div className=" flex space-x-3 items-center">
                     <svg
@@ -77,12 +77,12 @@ const Footer = () => {
                 </div>
                 <div className="flex items-center mt-6">
                     <p className="text-base leading-4 text-gray-800">
-                        2021{" "}
-                        <span className="font-semibold italic">Celebr8s</span>
+                        {new Date().getFullYear()}
+                        <span className="font-semibold italic"> Celebr8s</span>
                     </p>
                     <div className="border-l border-gray-800 pl-2 ml-2">
                         <p className="text-base leading-4 text-gray-800">
-                            Inc. All righys reserved
+                            All rights reserved
                         </p>
                     </div>
                 </div>

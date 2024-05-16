@@ -8,14 +8,14 @@ const Services = () => {
             <div className="container mx-auto">
                 <div className="-mx-4 flex flex-wrap">
                     <div className="w-full px-4">
-                        <div className="mx-auto mb-5 max-w-[510px] text-center lg:mb-5">
+                        <div className="mx-auto  max-w-[510px] text-center lg:mb-5">
                             <span className="  block text-lg font-semibold text-primary">
                                 Our Services
                             </span>
                             <h2 className="  text-3xl font-bold leading-[1.2] text-dark dark:text-white sm:text-4xl md:text-[40px]">
                                 What We Offer
                             </h2>
-                            <p className="text-base text-body-color dark:text-dark-6">
+                            <p className="text-base text-body-color dark:text-dark-6 px-2">
                                 We Provide Exceptional Event Services for
                                 Memorable Moments
                             </p>
@@ -23,7 +23,7 @@ const Services = () => {
                     </div>
                 </div>
 
-                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 mx-10     items-center">
+                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4    px-auto  items-center">
                     <ServiceCard
                         title="Refreshing Design"
                         price="50 Rs"
@@ -72,7 +72,7 @@ const ServiceCard = ({ icon, price, title, details }) => {
     console.log(icon);
     return (
         <>
-            <div className="w-[250px] col-span-1   my-5 shadow-xl px-1 py-5 mx-2">
+            <div className=" w-[300px] col-span-1 mx-auto  my-5 shadow-xl hover:shadow-2xl px-2 py-5 rounded-b-md    ">
                 <Image
                     src={icon}
                     alt="icon"

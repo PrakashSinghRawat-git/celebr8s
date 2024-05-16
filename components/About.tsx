@@ -28,7 +28,7 @@ export default function HomeSection() {
                             />
                         </div>
                     </div>
-                    <div className="xl:w-1/3 md:w-1/2 w-full">
+                    <div className="mt-10 xl:w-1/3 md:w-1/2 w-full">
                         <h1
                             role="heading"
                             className="focus:outline-none md:w-60 font-bold md:text-6xl text-4xl leading-tight text-gray-800"

@@ -8,14 +8,14 @@ import Services from "@/components/Services";
 
 export default function Home() {
     return (
-        <main className=" ">
+        <main className="w-screen overflow-hidden">
             <Navbar />
 
-            <div>
+            <div className=" w-full">
                 <div id="#home">
                     <HomeSection />
                 </div>
-                <div className="md:mx-10">
+                <div className="md:mx-20">
                     <div id="#home">
                         <About />
                     </div>
